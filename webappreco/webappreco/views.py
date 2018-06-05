@@ -32,8 +32,18 @@ def predict():
     """Renders the contact page."""
     data = fetch_movielens(min_rating=2.0)
 
+    if request.method == 'POST':
+        model = request.form['model']
+        if model =='Warp':
+            filename = 'warp_model.pkl'
+        elif model == 'K OS Warp':
+            filename='koswarp_model.pkl'
+        elif model == 'BPR':
+            filename ='bpr_model.pkl'
+        else:
+            filename = 'logistic_model.pkl'
 
-    loaded_model = pickle.load(open('model.pkl', 'rb'))
+    loaded_model = pickle.load(open(filename, 'rb'))
 
     def sample_recommendations(loaded_model, data, user_ids):
         #number of users and movies in training data 
@@ -75,9 +85,9 @@ def predict():
     
     return render_template(
         'predict.html',
-        umsg='User Rated Movies',
+        umsg='Top 5 User Rated Movies',
         year=datetime.now().year,
-        recomsg='Our movie recommendations to user',
+        recomsg='Our Top 5 movie recommendations to user',
         urated = user_rated,
         mreco = my_reco 
             )
