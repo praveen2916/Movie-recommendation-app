@@ -30,7 +30,7 @@ def home():
 @app.route('/predict', methods = ['POST'])
 def predict():
     """Renders the contact page."""
-    data = fetch_movielens(min_rating=2.0)
+    data = fetch_movielens(min_rating=4.0)
 
     if request.method == 'POST':
         model = request.form['model']
