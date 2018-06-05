@@ -1,0 +1,8 @@
+demo_lgmres
+test_lsmr
+test_gcrotmk
+test_minres
+test_lgmres
+test_utils
+test_lsqr
+test_iterative

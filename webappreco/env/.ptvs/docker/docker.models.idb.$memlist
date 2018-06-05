@@ -1,0 +1,11 @@
+volumes
+secrets
+configs
+networks
+nodes
+swarm
+resource
+services
+plugins
+images
+containers

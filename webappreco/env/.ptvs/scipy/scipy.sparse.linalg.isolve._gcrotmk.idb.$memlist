@@ -1,0 +1,17 @@
+lstsq
+np
+_fgmres
+qr_insert
+svd
+xrange
+absolute_import
+__all__
+print_function
+division
+make_system
+solve
+warnings
+qr
+gcrotmk
+LinAlgError
+get_blas_funcs

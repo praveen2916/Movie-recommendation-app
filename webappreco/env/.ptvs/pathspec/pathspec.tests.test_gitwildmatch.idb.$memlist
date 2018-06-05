@@ -1,0 +1,6 @@
+GitWildMatchTest
+GitWildMatchPattern
+unittest
+unicode_literals
+sys
+pathspec

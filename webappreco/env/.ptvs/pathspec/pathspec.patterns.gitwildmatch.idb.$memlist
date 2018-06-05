@@ -1,0 +1,9 @@
+GitWildMatchPattern
+RegexPattern
+util
+unicode_literals
+GitIgnorePattern
+warnings
+_BYTES_ENCODING
+re
+unicode

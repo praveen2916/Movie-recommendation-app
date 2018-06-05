@@ -1,0 +1,15 @@
+HessianUpdateStrategy
+group_columns
+FD_METHODS
+absolute_import
+LinearVectorFunction
+ScalarFunction
+np
+division
+approx_derivative
+print_function
+LinearOperator
+IdentityVectorFunction
+VectorFunction
+deepcopy
+sps

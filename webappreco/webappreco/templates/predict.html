@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ umsg }}.</h2>
+
+{% for item in urated %}
+<ol> {{ item }} </ol>
+{% endfor %}
+
+<h3>{{ recomsg }}</h3>
+
+{% for item in mreco %}
+<ol> {{ item }} </ol>
+{% endfor %}
+
+<address>
+    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
+
+{% endblock %}

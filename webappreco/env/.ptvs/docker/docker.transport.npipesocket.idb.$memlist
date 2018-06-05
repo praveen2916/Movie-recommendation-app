@@ -1,0 +1,12 @@
+RETRY_WAIT_TIMEOUT
+six
+NpipeSocket
+cSECURITY_ANONYMOUS
+win32file
+check_closed
+win32pipe
+NpipeFileIOBase
+functools
+cSECURITY_SQOS_PRESENT
+cERROR_PIPE_BUSY
+io

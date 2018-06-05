@@ -1,0 +1,14 @@
+py_default
+escape_controls
+namedtuple
+_ESCAPE_CONTROLS_RE
+_CONTROLS
+get_official_service_name
+AutoPopulatedParam
+_DocumentedShape
+AppendParamDocumentation
+py_type_name
+DocumentedShape
+HideParamFromOperations
+re
+_CONTROLS_MATCH_HANDLER

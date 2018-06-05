@@ -1,0 +1,16 @@
+KNOWNFAILURES
+UFUNCS
+assert_array_equal
+_get_ufuncs
+suppress_warnings
+test_nan_inputs
+absolute_import
+np
+POSTPROCESSING
+print_function
+division
+assert_
+sc
+test_legacy_cast
+UFUNC_NAMES
+pytest

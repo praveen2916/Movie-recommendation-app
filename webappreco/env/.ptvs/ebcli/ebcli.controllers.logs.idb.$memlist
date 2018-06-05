@@ -1,0 +1,10 @@
+logsops
+LOG
+InvalidOptionsError
+AbstractBaseController
+flag_text
+logs_operations_constants
+minimal_logger
+LogsController
+argparse
+strings

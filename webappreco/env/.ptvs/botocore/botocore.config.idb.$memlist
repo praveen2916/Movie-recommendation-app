@@ -1,0 +1,8 @@
+copy
+Config
+InvalidMaxRetryAttemptsError
+DEFAULT_TIMEOUT
+MAX_POOL_CONNECTIONS
+InvalidS3AddressingStyleError
+OrderedDict
+InvalidRetryConfigurationError

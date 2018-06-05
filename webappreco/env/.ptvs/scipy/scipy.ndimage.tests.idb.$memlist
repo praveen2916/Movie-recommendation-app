@@ -1,0 +1,8 @@
+test_ndimage
+test_regression
+test_c_api
+test_filters
+test_splines
+test_measurements
+test_io
+test_datatypes
