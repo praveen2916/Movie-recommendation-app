@@ -9,7 +9,7 @@ from sklearn.externals import joblib
 
 #fetch data and format it
 
-data = fetch_movielens(min_rating=6.0)
+data = fetch_movielens(min_rating=4.0)
 
 #create model
 model = LightFM(loss='logistic')

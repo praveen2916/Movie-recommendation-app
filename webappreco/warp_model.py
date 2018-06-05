@@ -9,7 +9,7 @@ from sklearn.externals import joblib
 
 #fetch data and format it
 
-data = fetch_movielens(min_rating=2.0)
+data = fetch_movielens(min_rating=4.0)
 
 #create model
 model = LightFM(loss='warp')
@@ -19,6 +19,6 @@ model.fit(data['train'],epochs=30,num_threads=2)
 
 
 # save the model to disk
-filename = 'model1.pkl'
+filename = 'warp_model.pkl'
 pickle.dump(model, open(filename, 'wb'))
 
