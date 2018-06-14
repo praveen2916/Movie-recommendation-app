@@ -54,7 +54,7 @@ def predict():
         
             #movies they already like 
             known_positives_train = data['item_labels'][data['train'].tocsr()[user_id].indices]
-            known_positives_test = data['item_labels'][data['test'].tocsr()[user_id].indices]
+            """ known_positives_test = data['item_labels'][data['test'].tocsr()[user_id].indices] """
         
             #movies our model predicts they will like
             scores = loaded_model.predict(user_id, np.arange(n_items))
